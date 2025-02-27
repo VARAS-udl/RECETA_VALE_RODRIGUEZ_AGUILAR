@@ -1,0 +1,34 @@
+/* css */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Teko", serif;
+}
+h1 {
+
+}
+body {
+    color: black;
+    font-family: "Sora", serif;
+
+}
+
+/*ENCABEZADOS*/
+header {
+    background-color: #1F5B14;
+}
+
+/*Contenido de la receta*/
+.migas {
+
+}
+.top-receta {
+    background-image: url(../img/PORTADA\ FONDO.jpg);
+    background-size: cover;
+}
+.A-COCINAR {
+    text-align: right;
+}
