@@ -7,8 +7,10 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: "Teko", serif;
 }
-h1 {
-
+.titulo {
+background-color: rgb(53, 224, 96);
+width: 18%;
+margin-left: 17%;
 }
 body {
     color: black;
@@ -29,6 +31,20 @@ header {
     background-image: url(../img/PORTADA\ FONDO.jpg);
     background-size: cover;
 }
-.A-COCINAR {
-    text-align: right;
+.receta {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 80%;
+    align-self: center;
+
+}
+.receta-int {
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+.principal {
+    display: flex;
+    flex-direction: column;
 }
