@@ -7,17 +7,50 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: "Teko", serif;
 }
+h3 {
+    color: #35e060 ;
+}
 .titulo {
-background-color: rgb(53, 224, 96);
+background-color: #35e060;
 width: 18%;
 margin-left: 17%;
 }
 body {
-    color: black;
+    background-color: #082902;
+    color: rgb(254, 252, 252);
     font-family: "Sora", serif;
 
 }
-
+/* Para moviles */
+@media screen and (max-width: 480px) {
+    header {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+header img {
+  width: 80%;
+}
+.logo {
+    margin: 3%;
+    width: 30%;
+}
+.logo-tex {
+    width: 50%;
+}
+.titulo {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.receta-int ul, .receta-int ol {
+    padding-left: 20px;
+}
+footer p {
+    font-size: 0.9rem;
+    text-align: center;
+}
 /*ENCABEZADOS*/
 header {
     background-color: #1F5B14;
@@ -30,6 +63,9 @@ header {
 .top-receta {
     background-image: url(../img/PORTADA\ FONDO.jpg);
     background-size: cover;
+}
+.top-receta img{
+    width: 80%;
 }
 .receta {
     display: flex;
